@@ -13,5 +13,20 @@ def get_patente (self):
 def get_marca (self):
   return self.marca
 
-def get_modelo (self)+
+def get_modelo (self):
 return self.modelo
+
+def get_kilometraje (self):
+  return self.kilometraje
+
+def set_kilometraje (self, nuevo_kilometraje):
+  self.kilometraje = nuevo kilometraje
+
+mi_auto = Vehiculo("ABC123", "Renault", "12","30000")
+
+print("Marca del vehiculo:", mi_auto.get_marca())
+
+print("Kilometraje antes de la modificacion:", mi_auto_get_kilometraje())
+mi_auto.set_kilometraje(55000)
+print("Kilometraje despues de la modificacion:", mi_auto.get_kilometraje())
+
